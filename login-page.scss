@@ -1,0 +1,78 @@
+page-login-page {
+
+  .center{
+    position: absolute;
+    top:0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+
+  }
+  .card-background-page {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("../assets/images/leaves2.jpg");
+
+    ion-card {
+      //position: relative;
+      //text-align: center;
+    }
+
+    .card-title {
+      position: absolute;
+      top: 36%;
+      font-size: 2.0em;
+      width: 100%;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .card-subtitle {
+      font-size: 1.0em;
+      position: absolute;
+      top: 52%;
+      width: 100%;
+      color: #fff;
+    }
+
+    .loginHeader {
+      color: white;
+      height: 5%;
+      text-align: center;
+      font-family: "Helvetic Neue", Helvetica, Arial;
+
+    }
+
+    .myHeader {
+      color: white;
+      font-size: 300%;
+      text-align: center;
+      font-family: "Helvetic Neue", Helvetica, Arial;
+
+    }
+    .buttonOne {
+      color: white;
+      height: 5%;
+    }
+
+    .buttonTwo {
+      color: white;
+      height: 5%;
+    }
+
+    .termsAgree {
+      color: white;
+      font-size: 75%;
+      font-family: "Helvetic Neue", Helvetica, Arial;
+    }
+
+  }
+  .orange {
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+  }
+}

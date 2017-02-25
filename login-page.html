@@ -1,0 +1,69 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+
+
+</ion-header>
+
+
+<ion-content class="card-background-page" padding>
+
+  <!--<ion-list>-->
+  <!--&lt;!&ndash;<img src="assets/images/leaves.png" class="orange"/>&ndash;&gt;-->
+  <!--<ion-item fixed>-->
+  <!--<ion-label>Get Started</ion-label>-->
+  <!--</ion-item>-->
+  <!--<ion-item fixed>-->
+  <!--<ion-label>Login or Sign Up Today!</ion-label>-->
+  <!--</ion-item>-->
+  <!---->
+  <!--</ion-list>-->
+
+  <!--<ion-list>-->
+
+  <!--<ion-item>-->
+  <!--<ion-header>Get Started!</ion-header>-->
+
+  <!--</ion-item>-->
+  <!--<ion-label fixed>Username</ion-label>-->
+  <!--<ion-input type="text" value=""></ion-input>-->
+  <!--<ion-item>-->
+
+  <!--</ion-item>-->
+
+  <!--</ion-list>-->
+  <div class="loginHeader">
+
+    <h1>Already have an account?</h1>
+
+  </div>
+
+  <!--<div class="myHeader"><ion-icon name="leaf"></ion-icon></div>-->
+  <div class="myHeader"><ion-icon name="leaf"></ion-icon>Fall Fashion Trends</div>
+  <br>
+  <ion-list>
+
+    <ion-item>
+      <ion-label>Username |</ion-label>
+      <ion-input type="text" value="" required autofocus></ion-input>
+    </ion-item>
+    <br><br>
+    <ion-item>
+      <ion-label fixed>Password |</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <div class="buttonOne"><p>Already have an account?</p></div>
+  <button ion-button icon-left color="default" class="goToHomePage" (click)="goToHomePage()"><ion-icon name="arrow-round-forward"></ion-icon>Login</button>
+  <div class="buttonTwo"><p>Don't have an account yet?</p></div>
+  <button ion-button icon-left color="default" class="goToCreateAccountPage" (click)="goToCreateAccountPage()"><ion-icon name="create"></ion-icon>Create Account</button>
+  <br>
+  <p class="termsAgree"> By clicking "Generate My Terms and Conditions", you agree to our Terms of Use, Privacy Policy and Disclaimer. Your information will not be shared with others.</p>
+</ion-content>
