@@ -1,0 +1,35 @@
+page-create-account-page {
+
+  .card-background-page {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("../assets/images/leaves2.jpg");
+  }
+
+  .goToHomePage {
+    display: flex;
+
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    font-family: "Helvetic Neue", Helvetica, Arial;
+
+  }
+
+  .myHeader {
+    color: white;
+    font-size: 300%;
+    text-align: center;
+    font-family: "Helvetic Neue", Helvetica, Arial;
+
+  }
+
+  .termsAgree {
+    color: white;
+    font-size: 75%;
+    font-family: "Helvetic Neue", Helvetica, Arial;
+  }
+
+}
