@@ -1,0 +1,35 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Fall Fashion Trends List
+        </ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only (click)="addBook()">
+                <ion-icon name="add"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <h1>List of Fall Trends</h1>
+    <ion-list>
+        <ion-item-sliding *ngFor="let book of books | async">
+            <ion-item>
+                <ion-card item-left><img src="{{book.image}}">
+                    <div class="card-title">{{book.title}}</div>
+                    <div class="card-subtitle">{{book.author}}</div>
+                </ion-card>
+            </ion-item>
+            <ion-item-options side="right">
+                <button ion-button (click)="editBook(book)">Edit</button>
+            </ion-item-options>
+            <ion-item-options side="left">
+                <button color="danger" ion-button (click)="removeBook(book.$key)">Delete</button>
+            </ion-item-options>
+        </ion-item-sliding>
+
+    </ion-list>
+
+
+</ion-content>
